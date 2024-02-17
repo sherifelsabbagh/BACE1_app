@@ -60,7 +60,7 @@ ipywidgets==8.1.1
 isoduration==20.11.0
 itsdangerous==2.1.2
 jedi==0.19.1
-joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1691577114857/work
+joblib 
 json5==0.9.14
 jsonpointer==2.4
 jsonschema==4.21.1
