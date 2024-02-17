@@ -42,7 +42,7 @@ def the_model(input_data):
     prediction_output = pd.Series(prediction, name='Activity')
     #proba_output=pd.Series(prediction_probability,name="prediction_proba")
     
-    molecule_name = pd.Series(reading_data[1], name='Molecule CHEMBL id/Molecule Name ')
+    molecule_name = pd.Series(reading_data["ID"], name='Molecule CHEMBL id/Molecule Name ')
     
     Result= pd.concat([molecule_name, prediction_output,x], axis=1)
     
