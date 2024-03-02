@@ -36,7 +36,7 @@ def the_model(input_data):
     prediction = load_model.predict(input_data)
     prediction_probability=load_model.predict_proba(input_data)
     
-    x=pd.DataFrame(prediction_probability,columns=["Pa","Pia"])
+    x=pd.DataFrame(prediction_probability,columns=["Pia","Pa"])
     st.header('Prediction Result')
     
     prediction_output = pd.Series(prediction, name='Activity')
